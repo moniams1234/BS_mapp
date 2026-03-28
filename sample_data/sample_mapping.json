@@ -1,0 +1,749 @@
+{
+  "_comment": "Polish GAAP chart of accounts mapping. Add / edit freely. Keys are account prefixes (longest match wins). side: A=Asset, P=Liability, R=P&L",
+  "accounts": [
+    {
+      "prefix": "010",
+      "side": "A",
+      "group": "Gross Property Plant and Equipment",
+      "name_en": "Gross PPE"
+    },
+    {
+      "prefix": "011",
+      "side": "A",
+      "group": "Gross Property Plant and Equipment",
+      "name_en": "PPE Under Construction"
+    },
+    {
+      "prefix": "012",
+      "side": "A",
+      "group": "Gross Property Plant and Equipment",
+      "name_en": "Right-of-Use Assets"
+    },
+    {
+      "prefix": "020",
+      "side": "A",
+      "group": "Accumulated Depreciation - PPE",
+      "name_en": "Accum. Depr. PPE"
+    },
+    {
+      "prefix": "021",
+      "side": "A",
+      "group": "Accumulated Depreciation - PPE",
+      "name_en": "Accum. Depr. PPE"
+    },
+    {
+      "prefix": "022",
+      "side": "A",
+      "group": "Accumulated Depreciation - PPE",
+      "name_en": "Accum. Depr. ROU"
+    },
+    {
+      "prefix": "030",
+      "side": "A",
+      "group": "Intangible Assets",
+      "name_en": "Intangibles"
+    },
+    {
+      "prefix": "031",
+      "side": "A",
+      "group": "Intangible Assets",
+      "name_en": "Intangibles"
+    },
+    {
+      "prefix": "032",
+      "side": "A",
+      "group": "Accumulated Amortization",
+      "name_en": "Accum. Amort."
+    },
+    {
+      "prefix": "040",
+      "side": "A",
+      "group": "Long-Term Investments",
+      "name_en": "Long-Term Investments"
+    },
+    {
+      "prefix": "050",
+      "side": "A",
+      "group": "Long-Term Receivables",
+      "name_en": "Long-Term Receivables"
+    },
+    {
+      "prefix": "060",
+      "side": "A",
+      "group": "Other Non-Current Assets",
+      "name_en": "Other Non-Current"
+    },
+    {
+      "prefix": "070",
+      "side": "A",
+      "group": "Other Non-Current Assets",
+      "name_en": "Other Non-Current"
+    },
+    {
+      "prefix": "080",
+      "side": "A",
+      "group": "Deferred Tax Assets",
+      "name_en": "Deferred Tax Assets"
+    },
+    {
+      "prefix": "131",
+      "side": "A",
+      "group": "CASH - Bank Accounts",
+      "name_en": "Cash & Bank"
+    },
+    {
+      "prefix": "132",
+      "side": "A",
+      "group": "CASH - Bank Accounts",
+      "name_en": "Cash & Bank"
+    },
+    {
+      "prefix": "135",
+      "side": "A",
+      "group": "CASH - Bank Accounts",
+      "name_en": "Cash & Bank"
+    },
+    {
+      "prefix": "100",
+      "side": "A",
+      "group": "CASH - Bank Accounts",
+      "name_en": "Cash"
+    },
+    {
+      "prefix": "101",
+      "side": "A",
+      "group": "CASH - Bank Accounts",
+      "name_en": "Cash"
+    },
+    {
+      "prefix": "149",
+      "side": "A",
+      "group": "CASH - Other Cash Accounts",
+      "name_en": "Other Cash"
+    },
+    {
+      "prefix": "200",
+      "side": "A",
+      "group": "AR_TRADE",
+      "name_en": "Accounts Receivable Trade"
+    },
+    {
+      "prefix": "201",
+      "side": "P",
+      "group": "Accounts Payable - Trade",
+      "name_en": "AP Trade"
+    },
+    {
+      "prefix": "202",
+      "side": "A",
+      "group": "AR_TRADE",
+      "name_en": "AR Trade"
+    },
+    {
+      "prefix": "204",
+      "side": "P",
+      "group": "Accounts Payable - Trade",
+      "name_en": "AP Trade"
+    },
+    {
+      "prefix": "210",
+      "side": "A",
+      "group": "AR_TRADE",
+      "name_en": "AR Trade"
+    },
+    {
+      "prefix": "211",
+      "side": "P",
+      "group": "Accounts Payable - Trade",
+      "name_en": "AP Trade"
+    },
+    {
+      "prefix": "212",
+      "side": "A",
+      "group": "AR_TRADE",
+      "name_en": "AR Trade"
+    },
+    {
+      "prefix": "213",
+      "side": "A",
+      "group": "AR_TRADE",
+      "name_en": "AR Trade"
+    },
+    {
+      "prefix": "214",
+      "side": "A",
+      "group": "AR_TRADE",
+      "name_en": "AR Trade"
+    },
+    {
+      "prefix": "215",
+      "side": "P",
+      "group": "Accounts Payable - Trade",
+      "name_en": "AP Trade"
+    },
+    {
+      "prefix": "216",
+      "side": "P",
+      "group": "Accounts Payable - Trade",
+      "name_en": "AP Trade"
+    },
+    {
+      "prefix": "217",
+      "side": "P",
+      "group": "Accounts Payable - Trade",
+      "name_en": "AP Trade"
+    },
+    {
+      "prefix": "218",
+      "side": "P",
+      "group": "Accounts Payable - Trade",
+      "name_en": "AP Trade"
+    },
+    {
+      "prefix": "219",
+      "side": "P",
+      "group": "Accounts Payable - Trade",
+      "name_en": "AP Trade"
+    },
+    {
+      "prefix": "220",
+      "side": "A",
+      "group": "I/C Accounts Receivable, Trade",
+      "name_en": "IC AR Trade"
+    },
+    {
+      "prefix": "221",
+      "side": "P",
+      "group": "I/C Accounts Payable-Trade",
+      "name_en": "IC AP Trade"
+    },
+    {
+      "prefix": "230",
+      "side": "A",
+      "group": "I/C Accounts Receivable, Non-Trade",
+      "name_en": "IC AR Non-Trade"
+    },
+    {
+      "prefix": "231",
+      "side": "P",
+      "group": "I/C Accounts Payable-Non-Trade",
+      "name_en": "IC AP Non-Trade"
+    },
+    {
+      "prefix": "240",
+      "side": "A",
+      "group": "PREPAIDS - Other",
+      "name_en": "Prepaid Expenses"
+    },
+    {
+      "prefix": "241",
+      "side": "A",
+      "group": "PREPAIDS - Other",
+      "name_en": "Prepaid Expenses"
+    },
+    {
+      "prefix": "245",
+      "side": "A",
+      "group": "PREPAIDS - Property Tax",
+      "name_en": "Prepaid Property Tax"
+    },
+    {
+      "prefix": "246",
+      "side": "A",
+      "group": "PREPAIDS - Insurance",
+      "name_en": "Prepaid Insurance"
+    },
+    {
+      "prefix": "260",
+      "side": "A",
+      "group": "PREPAIDS - Other",
+      "name_en": "Prepaid Other"
+    },
+    {
+      "prefix": "270",
+      "side": "A",
+      "group": "A/R - Allowance (Bad Debt / Aging)",
+      "name_en": "Allowance for Doubtful Accounts"
+    },
+    {
+      "prefix": "280",
+      "side": "A",
+      "group": "PREPAIDS - Other",
+      "name_en": "Other Current Assets"
+    },
+    {
+      "prefix": "300",
+      "side": "A",
+      "group": "INVENTORY - Raw Materials",
+      "name_en": "Inventory Raw Materials"
+    },
+    {
+      "prefix": "301",
+      "side": "A",
+      "group": "INVENTORY - Raw Materials",
+      "name_en": "Inventory Raw Materials"
+    },
+    {
+      "prefix": "310",
+      "side": "A",
+      "group": "INVENTORY - Work-in-Process",
+      "name_en": "WIP"
+    },
+    {
+      "prefix": "330",
+      "side": "A",
+      "group": "INVENTORY - Finished Goods-In Stock",
+      "name_en": "Finished Goods"
+    },
+    {
+      "prefix": "340",
+      "side": "A",
+      "group": "INVENTORY - Finished Goods Reserves",
+      "name_en": "Inventory Reserves"
+    },
+    {
+      "prefix": "390",
+      "side": "A",
+      "group": "INVENTORY - Other",
+      "name_en": "Other Inventory"
+    },
+    {
+      "prefix": "400",
+      "side": "R",
+      "group": "Depreciation Cost",
+      "name_en": "Depreciation"
+    },
+    {
+      "prefix": "401",
+      "side": "R",
+      "group": "Material Cost Usage",
+      "name_en": "Material Costs"
+    },
+    {
+      "prefix": "402",
+      "side": "R",
+      "group": "Services",
+      "name_en": "Services"
+    },
+    {
+      "prefix": "403",
+      "side": "R",
+      "group": "Taxes and Fees",
+      "name_en": "Taxes & Fees"
+    },
+    {
+      "prefix": "404",
+      "side": "R",
+      "group": "Other Operating Expenses",
+      "name_en": "Other OpEx"
+    },
+    {
+      "prefix": "405",
+      "side": "R",
+      "group": "Salaries",
+      "name_en": "Salaries"
+    },
+    {
+      "prefix": "406",
+      "side": "R",
+      "group": "Social Security and Benefits",
+      "name_en": "Social Security"
+    },
+    {
+      "prefix": "407",
+      "side": "R",
+      "group": "Other Personnel Costs",
+      "name_en": "Other Personnel"
+    },
+    {
+      "prefix": "408",
+      "side": "R",
+      "group": "Other Operating Expenses",
+      "name_en": "Other OpEx"
+    },
+    {
+      "prefix": "409",
+      "side": "R",
+      "group": "Other Operating Expenses",
+      "name_en": "Other OpEx"
+    },
+    {
+      "prefix": "410",
+      "side": "R",
+      "group": "Revenue",
+      "name_en": "Revenue"
+    },
+    {
+      "prefix": "420",
+      "side": "R",
+      "group": "Other Income",
+      "name_en": "Other Income"
+    },
+    {
+      "prefix": "430",
+      "side": "R",
+      "group": "Financial Income",
+      "name_en": "Financial Income"
+    },
+    {
+      "prefix": "431",
+      "side": "R",
+      "group": "Financial Expenses",
+      "name_en": "Financial Expenses"
+    },
+    {
+      "prefix": "440",
+      "side": "R",
+      "group": "Income Tax",
+      "name_en": "Income Tax"
+    },
+    {
+      "prefix": "490",
+      "side": "R",
+      "group": "Other Expenses",
+      "name_en": "Other Expenses"
+    },
+    {
+      "prefix": "500",
+      "side": "R",
+      "group": "Cost of Goods Sold",
+      "name_en": "COGS"
+    },
+    {
+      "prefix": "501",
+      "side": "R",
+      "group": "Cost of Goods Sold",
+      "name_en": "COGS"
+    },
+    {
+      "prefix": "510",
+      "side": "R",
+      "group": "SG&A",
+      "name_en": "SG&A"
+    },
+    {
+      "prefix": "520",
+      "side": "R",
+      "group": "Other Operating Expenses",
+      "name_en": "Other OpEx"
+    },
+    {
+      "prefix": "550",
+      "side": "R",
+      "group": "Cost of Goods Sold",
+      "name_en": "COGS"
+    },
+    {
+      "prefix": "600",
+      "side": "R",
+      "group": "Revenue",
+      "name_en": "Revenue"
+    },
+    {
+      "prefix": "610",
+      "side": "R",
+      "group": "Revenue",
+      "name_en": "Revenue"
+    },
+    {
+      "prefix": "620",
+      "side": "R",
+      "group": "Other Income",
+      "name_en": "Other Income"
+    },
+    {
+      "prefix": "630",
+      "side": "R",
+      "group": "Financial Income",
+      "name_en": "Financial Income"
+    },
+    {
+      "prefix": "700",
+      "side": "R",
+      "group": "Cost of Goods Sold",
+      "name_en": "COGS"
+    },
+    {
+      "prefix": "710",
+      "side": "R",
+      "group": "SG&A",
+      "name_en": "SG&A"
+    },
+    {
+      "prefix": "720",
+      "side": "R",
+      "group": "Other Operating Expenses",
+      "name_en": "Other OpEx"
+    },
+    {
+      "prefix": "730",
+      "side": "R",
+      "group": "Financial Expenses",
+      "name_en": "Financial Expenses"
+    },
+    {
+      "prefix": "740",
+      "side": "R",
+      "group": "Income Tax",
+      "name_en": "Income Tax"
+    },
+    {
+      "prefix": "800",
+      "side": "P",
+      "group": "Deferred Revenue",
+      "name_en": "Deferred Revenue"
+    },
+    {
+      "prefix": "840",
+      "side": "A",
+      "group": "A/R - Allowance (Bad Debt / Aging)",
+      "name_en": "Contra AR"
+    },
+    {
+      "prefix": "844",
+      "side": "A",
+      "group": "A/R - Allowance (Bad Debt / Aging)",
+      "name_en": "Contra AR"
+    },
+    {
+      "prefix": "850",
+      "side": "P",
+      "group": "Accrued Liabilities",
+      "name_en": "Accruals"
+    },
+    {
+      "prefix": "851",
+      "side": "P",
+      "group": "CASH - Restricted",
+      "name_en": "Restricted Cash Contra"
+    },
+    {
+      "prefix": "860",
+      "side": "P",
+      "group": "Other Current Liabilities",
+      "name_en": "Other CL"
+    },
+    {
+      "prefix": "870",
+      "side": "P",
+      "group": "Short-Term Debt",
+      "name_en": "Short-Term Debt"
+    },
+    {
+      "prefix": "871",
+      "side": "P",
+      "group": "Lease Liabilities - Current",
+      "name_en": "Lease Liab Current"
+    },
+    {
+      "prefix": "875",
+      "side": "P",
+      "group": "Lease Liabilities - Non-Current",
+      "name_en": "Lease Liab Non-Current"
+    },
+    {
+      "prefix": "880",
+      "side": "P",
+      "group": "Long-Term Debt",
+      "name_en": "Long-Term Debt"
+    },
+    {
+      "prefix": "890",
+      "side": "P",
+      "group": "Other Non-Current Liabilities",
+      "name_en": "Other NCL"
+    },
+    {
+      "prefix": "900",
+      "side": "P",
+      "group": "Equity - Share Capital",
+      "name_en": "Share Capital"
+    },
+    {
+      "prefix": "910",
+      "side": "P",
+      "group": "Equity - Retained Earnings",
+      "name_en": "Retained Earnings"
+    },
+    {
+      "prefix": "920",
+      "side": "P",
+      "group": "Equity - Reserves",
+      "name_en": "Equity Reserves"
+    },
+    {
+      "prefix": "930",
+      "side": "P",
+      "group": "Equity - Current Year Profit",
+      "name_en": "Current Year P/L"
+    },
+    {
+      "prefix": "940",
+      "side": "P",
+      "group": "Equity - Other",
+      "name_en": "Other Equity"
+    },
+    {
+      "prefix": "960",
+      "side": "P",
+      "group": "Deferred Tax Liabilities",
+      "name_en": "Deferred Tax Liab"
+    },
+    {
+      "prefix": "015",
+      "side": "A",
+      "group": "Gross Property Plant and Equipment",
+      "name_en": "Finance Lease Assets"
+    },
+    {
+      "prefix": "034",
+      "side": "A",
+      "group": "Long-Term Investments",
+      "name_en": "Other LT Financial Assets"
+    },
+    {
+      "prefix": "036",
+      "side": "A",
+      "group": "Long-Term Investments",
+      "name_en": "LT Impairment"
+    },
+    {
+      "prefix": "037",
+      "side": "A",
+      "group": "Long-Term Investments",
+      "name_en": "Investment Properties"
+    },
+    {
+      "prefix": "038",
+      "side": "A",
+      "group": "Other Non-Current Assets",
+      "name_en": "Other LT Investments"
+    },
+    {
+      "prefix": "039",
+      "side": "A",
+      "group": "Other Non-Current Assets",
+      "name_en": "Impairment LT Investments"
+    },
+    {
+      "prefix": "072",
+      "side": "A",
+      "group": "Accumulated Amortization",
+      "name_en": "Accum. Amort. Intangibles"
+    },
+    {
+      "prefix": "083",
+      "side": "A",
+      "group": "Other Non-Current Assets",
+      "name_en": "Long-Term Prepayments"
+    },
+    {
+      "prefix": "203",
+      "side": "A",
+      "group": "AR_TRADE",
+      "name_en": "AR Other"
+    },
+    {
+      "prefix": "206",
+      "side": "A",
+      "group": "AR_TRADE",
+      "name_en": "AR Employees"
+    },
+    {
+      "prefix": "234",
+      "side": "P",
+      "group": "Accrued Liabilities",
+      "name_en": "Accruals"
+    },
+    {
+      "prefix": "235",
+      "side": "P",
+      "group": "Other Current Liabilities",
+      "name_en": "Other CL"
+    },
+    {
+      "prefix": "247",
+      "side": "A",
+      "group": "PREPAIDS - Other",
+      "name_en": "Prepaid Other"
+    },
+    {
+      "prefix": "302",
+      "side": "A",
+      "group": "INVENTORY - Raw Materials",
+      "name_en": "Inventory Packaging"
+    },
+    {
+      "prefix": "502",
+      "side": "R",
+      "group": "Cost of Goods Sold",
+      "name_en": "Production Costs"
+    },
+    {
+      "prefix": "511",
+      "side": "R",
+      "group": "Cost of Goods Sold",
+      "name_en": "Production Costs"
+    },
+    {
+      "prefix": "512",
+      "side": "R",
+      "group": "Cost of Goods Sold",
+      "name_en": "Production Costs"
+    },
+    {
+      "prefix": "521",
+      "side": "R",
+      "group": "SG&A",
+      "name_en": "Admin Costs"
+    },
+    {
+      "prefix": "522",
+      "side": "R",
+      "group": "SG&A",
+      "name_en": "Selling Costs"
+    },
+    {
+      "prefix": "541",
+      "side": "R",
+      "group": "SG&A",
+      "name_en": "Admin Overhead"
+    },
+    {
+      "prefix": "542",
+      "side": "R",
+      "group": "Other Operating Expenses",
+      "name_en": "Other Overhead"
+    },
+    {
+      "prefix": "642",
+      "side": "R",
+      "group": "Financial Expenses",
+      "name_en": "Finance Costs"
+    },
+    {
+      "prefix": "701",
+      "side": "R",
+      "group": "Revenue",
+      "name_en": "Revenue Products"
+    },
+    {
+      "prefix": "702",
+      "side": "R",
+      "group": "Revenue",
+      "name_en": "Revenue Services"
+    },
+    {
+      "prefix": "761",
+      "side": "R",
+      "group": "Other Income",
+      "name_en": "Other Operating Income"
+    },
+    {
+      "prefix": "924",
+      "side": "P",
+      "group": "Equity - Reserves",
+      "name_en": "Revaluation Reserve"
+    }
+  ]
+}
